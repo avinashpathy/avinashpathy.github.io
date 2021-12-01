@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVINASH PATHY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Oswald:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a id="one" href="index.html" target="_self">Avinash Pathy</a>
+        <nav>
+            <ul class="navlinks" id="menuList">
+                <li><a href="resume.html">CV</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+            <img src="logo.png" class="menu-icon" onclick="togglemenu()">
+        </nav>
+        
+    </header>
+
+    <!--<div class="img1"> -->
+        <div class="img1"><img class="img-responsive" src="me.jpg" height="350" width="350"/></div>
+        <!--
+            <img src="me.jpg" alt="Me" class="img-fluid" height="350" width="350"> -->
+    </div>
+    <div class="aboutme">
+        <h2 id="ame"><b>About Me</b></h2>
+        <p>I'm a final year Electronics and Communication Engineering undergraduate from R.V. College of Engineering, Bangalore.</p>
+        <p>My areas of interest are data structures and algorithms, web development, machine learning and robotics.</p>
+        <p>Apart from coding, I love listening to music and exploring Indian history. </p>
+        <p> Coding profiles:  <a href="https://leetcode.com/pathy_01/"> LeetCode </a> <a href ="https://auth.geeksforgeeks.org/user/avinashpathy/practice"> GeeksForGeeks</a> <a href="https://www.codechef.com/users/avinashpathy">CodeChef</a> </p>
+    </div>
+    <footer>
+        <div class="foot">
+            <ul class="soc">
+            <li><a href = "mailto: avinashpathy2001@gmail.com"> <i class="fa fa-envelope" ></i>Email</a> </li>
+            <li><a href="https://github.com/avinashpathy"> <i class="fa fa-github" ></i>GitHub </a> </li>
+            <li><a href="https://www.linkedin.com/in/avinashpathy"> <i class="fa fa-linkedin-square" ></i>LinkedIn</a> </li>
+
+            </ul>
+            
+        </div>
+        <div class="footbottom">
+            <p>Copyright &copy;2021. Developed by <span>Avinash Pathy </span></p>
+        </div>
+    </footer>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight="0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight=="0px")
+            {
+                menuList.style.maxHeight="130px"
+            }
+            else
+            {
+                menuList.style.maxHeight="0px";
+            }
+        }
+    </script>
+    
+</body>
+</html>
