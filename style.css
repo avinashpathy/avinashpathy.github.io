@@ -25,6 +25,11 @@ header{
     padding: 15px 5%;
     border: white 5px solid;
 }
+header a:hover{
+    color:aqua;
+    text-decoration: none;
+    transition: color .4s ease;
+}
 .navlinks{
     list-style: none;
 }
@@ -145,7 +150,12 @@ footer{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 200px;
-    margin-left: 15px;
+    margin-left: 5px;
+}
+.aboutme a:hover{
+    color:blueviolet;
+    text-decoration: none;
+    transition: color .4s ease;
 }
 .fa{
     margin-right: 5px;
@@ -159,11 +169,21 @@ footer{
 #cls{
     margin-left: 15px;
 }
+#cls a:hover{
+    color:blueviolet;
+    text-decoration: none;
+    transition: color .4s ease;
+}
 .inside{
     color:white;
     margin-left: 25px;
     margin-top: 10px;
     margin-bottom: 100px;
+}
+.inside a:hover{
+    color:blueviolet;
+    text-decoration: none;
+    transition: color .4s ease;
 }
 #ame{
     margin-bottom: 30px;
@@ -187,6 +207,7 @@ footer{
     
     color:violet;
     transition: color .4s ease;
+    text-decoration: none;
 }
 
 .ed1{
@@ -197,6 +218,19 @@ footer{
     width:25px;
     cursor:pointer;
     display: none;
+}
+
+
+.pro{
+    color:white;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.topic a:hover{
+    color:blueviolet;
+    transition: color .4s ease;
+    text-decoration: none;
 }
 
 @media only screen and (max-width:700px){
