@@ -46,8 +46,9 @@ const Nav = () => {
         </nav>
 
         <a
-          href="/Avinash_Pathy_Resume.pdf"
-          download
+          href="https://bit.ly/avinashpathy"
+          target="_blank"
+          rel="noopener noreferrer"
           className="hidden md:inline-flex font-mono text-xs uppercase tracking-widest px-4 py-2 rounded-full border border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground transition-all"
         >
           Resume
@@ -76,8 +77,9 @@ const Nav = () => {
               </a>
             ))}
             <a
-              href="/Avinash_Pathy_Resume.pdf"
-              download
+              href="https://bit.ly/avinashpathy"
+              target="_blank"
+              rel="noopener noreferrer"
               className="font-mono text-sm uppercase tracking-widest text-primary"
             >
               Resume ↓

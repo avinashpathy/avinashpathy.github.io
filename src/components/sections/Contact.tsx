@@ -36,8 +36,12 @@ const Contact = () => {
               </a>
             </Button>
             <Button variant="outlineGlow" size="xl" asChild>
-              <a href="/Avinash_Pathy_Resume.pdf" download>
-                Download resume
+              <a
+                href="https://bit.ly/avinashpathy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View resume
               </a>
             </Button>
           </div>
