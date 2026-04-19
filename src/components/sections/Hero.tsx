@@ -40,13 +40,14 @@ const Hero = () => {
           </p>
 
           <p className="text-lg md:text-2xl text-foreground/80 max-w-2xl mb-12 leading-relaxed">
-            I build things on the internet — mostly{" "}
-            <span className="text-foreground font-semibold">scalable backends</span> and{" "}
-            <span className="text-foreground font-semibold">identity systems</span> that quietly do
-            the heavy lifting. Evenings? Usually lost down a rabbit hole with{" "}
+            Crafting the quiet machinery behind modern software — from{" "}
+            <span className="text-foreground font-semibold">enterprise identity</span> to{" "}
+            <span className="text-foreground font-semibold">cloud-native backends</span>, with a
+            growing curiosity for{" "}
             <span className="text-primary font-semibold">MCP</span>,{" "}
-            <span className="text-secondary font-semibold">RAG</span>, or{" "}
-            <span className="text-accent font-semibold">agentic AI</span>.
+            <span className="text-secondary font-semibold">RAG</span>, and{" "}
+            <span className="text-accent font-semibold">agentic AI</span>. 3.5+ years of turning
+            messy problems into systems that just work.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-16">
