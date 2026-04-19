@@ -61,7 +61,7 @@ const About = () => {
 
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border/50">
               {[
-                { v: "3+", l: "Years" },
+                { v: "3.5+", l: "Years" },
                 { v: "10K+", l: "Identities Managed" },
                 { v: "99.9%", l: "Uptime" },
               ].map((s) => (
