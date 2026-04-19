@@ -22,7 +22,7 @@ const groups = [
   },
   {
     title: "Tools & Frameworks",
-    items: ["Node.js", "Serverless", "Docker", "Redis", "Datadog", "Jest", "Git", "Cursor"],
+    items: ["Node.js", "Express", "FastAPI", "Serverless", "Docker", "Redis", "Datadog", "Jest", "Git", "Cursor"],
   },
   {
     title: "Databases",

@@ -26,26 +26,37 @@ const About = () => {
 
           <div className="md:col-span-8 space-y-6 text-lg text-foreground/80 leading-relaxed">
             <p>
-              I'm a software engineer with{" "}
-              <span className="text-primary font-semibold">3+ years</span> of experience building
-              serverless backends, identity platforms, and enterprise integrations on AWS. Most
-              of my day-to-day is spent designing APIs, debugging distributed systems, and trying
-              to make complex things feel simple.
+              I'm a software engineer with close to{" "}
+              <span className="text-primary font-semibold">3.5 years</span> of experience building
+              scalable, serverless applications with{" "}
+              <span className="text-foreground font-semibold">AWS, Node.js, TypeScript, and React</span>.
+              I enjoy designing cloud-native systems, securing them with solid auth, and squeezing
+              performance out of search and data layers using OpenSearch — alongside the usual
+              suspects like Lambda, DynamoDB, API Gateway, SQS, SNS, EventBridge, and Step Functions.
             </p>
             <p>
-              At <span className="text-foreground font-semibold">Aquera Labs</span>, I work on
-              SCIM connectors and JML lifecycle workflows that quietly keep thousands of
-              identities in sync across enterprise systems. Before that at{" "}
-              <span className="text-foreground font-semibold">Koch</span>, I helped build
-              dashboards handling 100K+ contacts and a logistics platform for 10K+ users in
+              At <span className="text-foreground font-semibold">Aquera Labs</span>, I build{" "}
+              <span className="text-foreground font-semibold">SCIM-based connectors</span> and
+              automated <span className="text-foreground font-semibold">JML (Joiner–Mover–Leaver)</span>{" "}
+              workflows that provision, update, and deprovision identities across enterprise
+              systems — making sync more reliable and saving teams from a ton of manual work.
+              Before that at <span className="text-foreground font-semibold">Koch</span>, I shipped
+              dashboards handling 100K+ contacts and a logistics platform serving 10K+ users in
               agriculture.
             </p>
             <p>
+              I care a lot about <span className="text-foreground">OOP, data structures, and
+              clean architecture</span> — both high-level and low-level design. Day to day, I'm
+              usually deep in <span className="text-foreground font-semibold">React, React Native,
+              Node, Express, FastAPI, TypeScript, Docker</span>, and the Serverless Framework,
+              chasing resilient and cost-efficient solutions.
+            </p>
+            <p>
               Outside of work, I've been{" "}
-              <span className="text-primary">tinkering with AI</span> — playing around with the{" "}
+              <span className="text-primary">tinkering with AI</span> — playing with the{" "}
               <span className="text-secondary">Model Context Protocol</span>, building small RAG
-              prototypes, and seeing how far I can push agentic workflows. It's still early days,
-              but it's the corner of tech I'm most curious about right now.
+              prototypes, and pushing agentic workflows to see what breaks. Early days, but
+              it's the corner of tech I'm most curious about right now.
             </p>
 
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border/50">
