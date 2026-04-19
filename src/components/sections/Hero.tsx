@@ -40,11 +40,13 @@ const Hero = () => {
           </p>
 
           <p className="text-lg md:text-2xl text-foreground/80 max-w-2xl mb-12 leading-relaxed">
-            I'm a software engineer who loves building scalable backends and identity systems on AWS.
-            Lately, I've been spending my evenings exploring{" "}
+            I build things on the internet — mostly{" "}
+            <span className="text-foreground font-semibold">scalable backends</span> and{" "}
+            <span className="text-foreground font-semibold">identity systems</span> that quietly do
+            the heavy lifting. Evenings? Usually lost down a rabbit hole with{" "}
             <span className="text-primary font-semibold">MCP</span>,{" "}
-            <span className="text-secondary font-semibold">RAG</span>, and{" "}
-            <span className="text-accent font-semibold">agentic AI</span> — and it's a lot of fun.
+            <span className="text-secondary font-semibold">RAG</span>, or{" "}
+            <span className="text-accent font-semibold">agentic AI</span>.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-16">
