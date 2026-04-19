@@ -25,31 +25,32 @@ const Hero = () => {
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
             </span>
             <span className="font-mono text-xs tracking-widest text-primary uppercase">
-              Available for opportunities
+              Open to new opportunities
             </span>
           </div>
 
           <h1 className="font-display font-bold text-5xl sm:text-7xl md:text-8xl lg:text-9xl leading-[0.9] mb-6">
-            Avinash
+            Hey, I'm
             <br />
-            <span className="text-gradient">Pathy.</span>
+            <span className="text-gradient">Avinash.</span>
           </h1>
 
           <p className="font-mono text-sm md:text-base text-muted-foreground mb-6 tracking-wide">
-            <span className="text-primary">{">"}</span> software_engineer · cloud_systems · agentic_ai
+            <span className="text-primary">{">"}</span> Backend · Agentic AI · IAM · Full-Stack · Cloud
           </p>
 
           <p className="text-lg md:text-2xl text-foreground/80 max-w-2xl mb-12 leading-relaxed">
-            I build scalable backend platforms and identity systems on AWS — and explore the
-            frontier of <span className="text-primary font-semibold">MCP</span>,{" "}
+            I'm a software engineer who loves building scalable backends and identity systems on AWS.
+            Lately, I've been spending my evenings exploring{" "}
+            <span className="text-primary font-semibold">MCP</span>,{" "}
             <span className="text-secondary font-semibold">RAG</span>, and{" "}
-            <span className="text-accent font-semibold">Agentic AI</span>.
+            <span className="text-accent font-semibold">agentic AI</span> — and it's a lot of fun.
           </p>
 
           <div className="flex flex-wrap gap-4 mb-16">
             <Button variant="hero" size="xl" asChild>
               <a href="#projects">
-                View Work <ArrowDown className="ml-1" />
+                See my work <ArrowDown className="ml-1" />
               </a>
             </Button>
             <Button variant="outlineGlow" size="xl" asChild>

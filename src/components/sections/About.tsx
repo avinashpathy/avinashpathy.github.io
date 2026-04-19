@@ -16,33 +16,36 @@ const About = () => {
               [01] About
             </div>
             <h2 className="font-display font-bold text-4xl md:text-6xl leading-[1]">
-              Engineer.
+              A bit
               <br />
-              <span className="text-gradient-accent">Builder.</span>
+              <span className="text-gradient-accent">about</span>
               <br />
-              Tinkerer.
+              me.
             </h2>
           </div>
 
           <div className="md:col-span-8 space-y-6 text-lg text-foreground/80 leading-relaxed">
             <p>
               I'm a software engineer with{" "}
-              <span className="text-primary font-semibold">3+ years</span> of experience
-              architecting serverless backends, identity platforms, and large-scale enterprise
-              integrations on AWS.
+              <span className="text-primary font-semibold">3+ years</span> of experience building
+              serverless backends, identity platforms, and enterprise integrations on AWS. Most
+              of my day-to-day is spent designing APIs, debugging distributed systems, and trying
+              to make complex things feel simple.
             </p>
             <p>
-              At <span className="text-foreground font-semibold">Aquera Labs</span>, I design
-              SCIM-based connectors and JML lifecycle workflows powering 10,000+ identities
-              across enterprise systems. Previously at{" "}
-              <span className="text-foreground font-semibold">Koch</span>, I built dashboards
-              handling 100K+ contacts and logistics platforms serving 10K+ agricultural users.
+              At <span className="text-foreground font-semibold">Aquera Labs</span>, I work on
+              SCIM connectors and JML lifecycle workflows that quietly keep thousands of
+              identities in sync across enterprise systems. Before that at{" "}
+              <span className="text-foreground font-semibold">Koch</span>, I helped build
+              dashboards handling 100K+ contacts and a logistics platform for 10K+ users in
+              agriculture.
             </p>
             <p>
-              Outside of shipping production systems, I'm deeply interested in{" "}
-              <span className="text-primary">agentic AI</span>, the{" "}
-              <span className="text-secondary">Model Context Protocol</span>, and building
-              retrieval-augmented systems that let LLMs reason over real, grounded data.
+              Outside of work, I've been{" "}
+              <span className="text-primary">tinkering with AI</span> — playing around with the{" "}
+              <span className="text-secondary">Model Context Protocol</span>, building small RAG
+              prototypes, and seeing how far I can push agentic workflows. It's still early days,
+              but it's the corner of tech I'm most curious about right now.
             </p>
 
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-border/50">
